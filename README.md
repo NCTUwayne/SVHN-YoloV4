@@ -59,7 +59,9 @@ Training command:
 * Output .json file:
 
 ./darknet detector test data/svhn.data cfg/yolov4-svhn.cfg backup/yolov4-svhn_final.weights -ext_output -dont_show -out result.json < data/test.txt
+
 It will out put a 'result.json' file, put it in the same directory with 'json-output.py', and execute 'json-output.py'.
+
 The highest mAP I got is: 0.45704
 ## Speed bench mark
 I tested the weight on Google Colab. The speed testing code reference is from: https://github.com/StephenEkaputra/SVHN-YOLOV3-CUSTOM.

@@ -1,0 +1,6 @@
+classes = 10
+train  = /home/wayne/darknet-master/data/train.txt
+valid  = /home/wayne/darknet-master/data/train.txt
+names = data/svhn.names
+backup = /home/wayne/darknet-master/backup/
+eval = coco
